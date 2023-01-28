@@ -2,19 +2,29 @@
 // і Number.parseFloat()
 
 const elementWidth = '50px';
+// const result = Number.parseInt(elementWidth);
+
+// console.log( result);
 // elementWidth = ;
 // console.log('elementWidth:', elementWidth);
 // ............
 
 let elementHeight = '200.74px';
-// elementHeight = ;
-// console.log('elementHeight:', elementHeight);
+
+elementHeight = Number.parseFloat(elementHeight) ;
+console.log('elementHeight:', elementHeight);
 
 // ...........
 // Метод число .toFixed(digits)
 // Матрьошки на прикладі console.log(Number(число, toFixed(digits)));
 //
-const salary = 1300.16472;
+let salary = 1300.16472;
+salary = Number(salary.toFixed(3));
+// salary = salary.toFixed(3)
+// salary = Number(salary)
+
+
+console.log(salary)
 
 // ...........
 
@@ -23,7 +33,7 @@ const salary = 1300.16472;
 // 
 let quantity = '30';
 let value = 'Цю строку неможливо перевести в число';
-
+console.log(Number(true));
 // .............
 // Обєкт Math
 // - Піднесення до степені
@@ -31,8 +41,8 @@ let value = 'Цю строку неможливо перевести в числ
 
 const base = 2;
 const power = 5;
-
-console.log();
+// const result = Math.pow(2,5);
+// console.log(base ** power)
 
 
 // ..............
@@ -41,18 +51,24 @@ console.log();
 // - Math.random()
 // - Math.round()
 
+// const max = 10
+// const min = 5
+// const = 
+// Number.random() * (max - min) + min;
+
+
 // ..............
 
 
 //Приклад використання
-// const colors = ['tomato', 'orange', 'blue', 'deeppink'];
-// const max = colors.length - 1;
-// const min = 0;
+const colors = ['tomato', 'orange', 'blue', 'deeppink'];
+const max = colors.length - 1;
+const min = 0;
 
-// const index = Math.round((Math.random() * (max - min) + min));
+const index = Math.round((Math.random() * (max - min) + min));
 
-// const color = colors[index];
+const color = colors[index];
 
-// console.log(color);
+console.log(color);
 
-// document.body.style.backgroundColor = color;
+document.body.style.backgroundColor = color;

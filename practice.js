@@ -4,6 +4,11 @@
 // plums = 70;
 // Сума у змінній sum
 // і вивести результат в консоль
+const apples = 30;
+const plums = 70;
+const result = apples + plums;
+
+console.log( result );
 
 // Задача №1.1
 // Створити три змінні
@@ -25,6 +30,13 @@
 // Обєкт Math
 // Визнгачити площу круга
 // з радіусом 10см(ПR(2)).Math.pow(a, b) - піднести до степені
+//  const rad = 10;
+//  const PI = Math.PI;
+//  const powRad = Math.pow( rad, 2);
+//  const result = PI * powRad;
+
+//  console.log(result);
+
 
 
 // Задача №2.1
@@ -42,15 +54,18 @@
 // Напиши скрипт який просить у користувача ввести число яке потрібно піднести до степеня,
 //і піднести це число до степерні
 //  і вивести результат в консоль
-
+// console.log(prompt("Дай число"));
+// console.log(prompt("В яку степень "));
 // ..................
 // Задача №4
 // Доповни код, присвоївши змінній totalPrice вираз для підрахунку загальної суми замовлення.
 // Змінна pricePerItem зберігає ціну однієї одиниці товару,
 // а orderedQuantity - кількість одиниць товару в замовленні.
 
-// const pricePerItem = 3500;
-// const orderedQuantity = 4;
+const pricePerItem = 3500;
+const orderedQuantity = 4;
+const totalPrice =pricePerItem * orderedQuantity;
+console.log(totalPrice)
 
 // .................
 
